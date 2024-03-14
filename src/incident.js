@@ -16,3 +16,5 @@ export const getIncidentNumbers = function () {
     }
     gs.addInfoMessage(incidentNumbers.toString());
 }
+
+// TBD too
