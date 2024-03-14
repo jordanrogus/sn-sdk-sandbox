@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<record_update>
+  <sys_module action="INSERT_OR_UPDATE">
+    <sys_scope>ddaf132f47b8021029cb5ac5316d4336</sys_scope>
+    <path>x_648117_sdk/sdk-sandbox/0.0.1/package.json</path>
+    <external_source>false</external_source>
+    <content><![CDATA[{
+    "name": "sdk-sandbox",
+    "version": "0.0.1",
+    "description": "Testing the SDK",
+    "license": "UNLICENSED",
+    "contributors": [],
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk deploy"
+    },
+    "now": {
+        "scope": "x_648117_sdk",
+        "scopeId": "ddaf132f47b8021029cb5ac5316d4336",
+        "moduleDir": "src"
+    },
+    "devDependencies": {
+        "@servicenow/eslint-plugin-sdk-app-plugin": "*",
+        "@servicenow/glide": "25.0.1",
+        "eslint": "8.50.0"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21"
+    }
+}
+]]></content>
+  </sys_module>
+</record_update>

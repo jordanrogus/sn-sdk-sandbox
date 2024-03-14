@@ -1,0 +1,182 @@
+{
+  "files": [
+    {
+      "status": "DEPLOYED",
+      "current_hash": "2eb2a8c35dbb9b1aef239d54b8cc25c6",
+      "path": "dictionary/x_648117_sdk_to_do.xml",
+      "deploy_hash": "2eb2a8c35dbb9b1aef239d54b8cc25c6",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "24f76db66b88b2a5660e1ef166297c60",
+      "path": "sys_app_ddaf132f47b8021029cb5ac5316d4336.xml",
+      "deploy_hash": "24f76db66b88b2a5660e1ef166297c60",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "3b0db9868fcfaa8b29896f62d20224ca",
+      "path": "update/sys_module_package_json.xml",
+      "deploy_hash": "3b0db9868fcfaa8b29896f62d20224ca",
+      "modulePath": "x_648117_sdk/sdk-sandbox/0.0.1/package.json"
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "283056dfa745e656924994cbf469a1b3",
+      "path": "update/sys_module_src_myfunction_js.xml",
+      "deploy_hash": "283056dfa745e656924994cbf469a1b3",
+      "modulePath": "x_648117_sdk/sdk-sandbox/0.0.1/src/myfunction.js"
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "7f1a2432ab0bc871e7a9b4444a333967",
+      "path": "update/sys_script_bfe5a80407544f65bae356b67fc857f4.xml",
+      "deploy_hash": "7f1a2432ab0bc871e7a9b4444a333967",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "57b43bcbc2d94772633552cd9e6801b0",
+      "path": "package_inventory.csv",
+      "deploy_hash": "57b43bcbc2d94772633552cd9e6801b0",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "508b9989474ed350168270b6e0350ea0",
+      "path": "update/sys_db_object_ffaf9feb47b8021029cb5ac5316d43c1.xml",
+      "deploy_hash": "508b9989474ed350168270b6e0350ea0",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "0df6b3f27c5147c86e4f533a44f698ba",
+      "path": "update/sys_dictionary_x_648117_sdk_to_do_deadline.xml",
+      "deploy_hash": "0df6b3f27c5147c86e4f533a44f698ba",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "082a06216e2a9839ac16e148a0705cb2",
+      "path": "update/sys_dictionary_x_648117_sdk_to_do_null.xml",
+      "deploy_hash": "082a06216e2a9839ac16e148a0705cb2",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "d63372730dbcc040517161e0b1f5e8c0",
+      "path": "update/sys_dictionary_x_648117_sdk_to_do_status.xml",
+      "deploy_hash": "d63372730dbcc040517161e0b1f5e8c0",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "87894dd7f5d1488d53cc7c35edf29987",
+      "path": "update/sys_dictionary_x_648117_sdk_to_do_task.xml",
+      "deploy_hash": "87894dd7f5d1488d53cc7c35edf29987",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "da8f07ee53245ca48a059e65125bf63d",
+      "path": "update/sys_documentation_x_648117_sdk_to_do__en.xml",
+      "deploy_hash": "da8f07ee53245ca48a059e65125bf63d",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "1c9d4c754bb6fc19d842542fd188d962",
+      "path": "update/sys_documentation_x_648117_sdk_to_do_deadline_en.xml",
+      "deploy_hash": "1c9d4c754bb6fc19d842542fd188d962",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "1f6d4e85c78b00b197e161363941769f",
+      "path": "update/sys_documentation_x_648117_sdk_to_do_status_en.xml",
+      "deploy_hash": "1f6d4e85c78b00b197e161363941769f",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "6fb1eaad2f968fe380176473aa812c95",
+      "path": "update/sys_documentation_x_648117_sdk_to_do_task_en.xml",
+      "deploy_hash": "6fb1eaad2f968fe380176473aa812c95",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "35b1d4154904e65b2a7acffd3c31491b",
+      "path": "update/sys_ui_list_x_648117_sdk_to_do_null.xml",
+      "deploy_hash": "35b1d4154904e65b2a7acffd3c31491b",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "7d9fb3125aaeb11276e2d2a76bd182f7",
+      "path": "update/sys_ui_section_c561a3af47b8021029cb5ac5316d43d9.xml",
+      "deploy_hash": "7d9fb3125aaeb11276e2d2a76bd182f7",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "fbe53b34ed044651f2784e3df6c6b124",
+      "path": "update/ua_table_licensing_config_80bfdf2f47b8021029cb5ac5316d43d3.xml",
+      "deploy_hash": "fbe53b34ed044651f2784e3df6c6b124",
+      "modulePath": ""
+    },
+    {
+      "path": "author_elective_update/sys_script_557d02f347b8421029cb5ac5316d430f.xml",
+      "current_hash": "7b5316dfcbde838ee61cb0350db386d7",
+      "deploy_hash": "7b5316dfcbde838ee61cb0350db386d7",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "7b8d36899db3a2a9f7620902d311ba34",
+      "path": "update/sys_module_src_incident_js.xml",
+      "deploy_hash": "7b8d36899db3a2a9f7620902d311ba34",
+      "modulePath": "x_648117_sdk/sdk-sandbox/0.0.1/src/incident.js"
+    },
+    {
+      "path": "author_elective_update/sys_scope_privilege_54e9afab47f8021029cb5ac5316d4309.xml",
+      "current_hash": "4fbfde5f443f170e4569880b65f64ab8",
+      "deploy_hash": "4fbfde5f443f170e4569880b65f64ab8",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update/sys_scope_privilege_477252fb47b8421029cb5ac5316d4335.xml",
+      "current_hash": "8e7a5855fadd368f16626cd896fe220d",
+      "deploy_hash": "8e7a5855fadd368f16626cd896fe220d",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update/sys_script_5ec25afb47b8421029cb5ac5316d43df.xml",
+      "current_hash": "819e93c3214e843493c4ef000009a590",
+      "deploy_hash": "819e93c3214e843493c4ef000009a590",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "path": "update/sys_script_client_aa80eabf47f8421029cb5ac5316d43fb.xml",
+      "current_hash": "ff27edc22739eddaf77ef043d664fdb5",
+      "deploy_hash": "ff27edc22739eddaf77ef043d664fdb5",
+      "status": "DEPLOYED",
+      "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "7e23a9e2b82fd2d5610a5d54b8beadeb",
+      "path": "update/sys_script_qfe5a80407544f65bae356b67fc857f4.xml",
+      "deploy_hash": "7e23a9e2b82fd2d5610a5d54b8beadeb",
+      "modulePath": ""
+    }
+  ],
+  "packageJsonHash": "9084ab518f3ba6e0a99c33c08541a699",
+  "register_scope": false,
+  "last_fetch": "2024-03-14T14:33:52.210Z"
+}

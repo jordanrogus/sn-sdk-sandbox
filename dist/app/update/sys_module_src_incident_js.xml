@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<record_update>
+  <sys_module action="INSERT_OR_UPDATE">
+    <sys_scope>ddaf132f47b8021029cb5ac5316d4336</sys_scope>
+    <path>x_648117_sdk/sdk-sandbox/0.0.1/src/incident.js</path>
+    <external_source>false</external_source>
+    <content><![CDATA[import { GlideRecord } from '@servicenow/glide'
+import { gs } from '@servicenow/glide'
+
+export const getIncidentCount = function () {
+    let incidentGr = new GlideRecord("incident");
+    incidentGr.query();
+    gs.addInfoMessage(incidentGr.getRowCount());
+}
+
+export const getIncidentNumbers = function () {
+    let incidentNumbers = [];
+    let incidentGr = new GlideRecord("incident");
+    incidentGr.query();
+    while (incidentGr.next()){
+        incidentNumbers.push(incidentGr.getDisplayValue());
+    }
+    gs.addInfoMessage(incidentNumbers.toString());
+}]]></content>
+  </sys_module>
+</record_update>

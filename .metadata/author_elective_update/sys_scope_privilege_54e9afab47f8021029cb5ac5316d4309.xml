@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>read</operation>
+        <source_scope display_value="SDK Sandbox">ddaf132f47b8021029cb5ac5316d4336</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-14 01:15:20</sys_created_on>
+        <sys_id>54e9afab47f8021029cb5ac5316d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>incident</sys_name>
+        <sys_package display_value="SDK Sandbox" source="x_648117_sdk">ddaf132f47b8021029cb5ac5316d4336</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SDK Sandbox">ddaf132f47b8021029cb5ac5316d4336</sys_scope>
+        <sys_update_name>sys_scope_privilege_54e9afab47f8021029cb5ac5316d4309</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 01:15:20</sys_updated_on>
+        <target_name>incident</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SDK Sandbox">ddaf132f47b8021029cb5ac5316d4336</application>
+        <file_path/>
+        <instance_id>300ee696db56bd9092f5684e1396199d</instance_id>
+        <instance_name>dev206138</instance_name>
+        <name>sys_scope_privilege_54e9afab47f8021029cb5ac5316d4309</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="SDK Sandbox">ddaf132f47b8021029cb5ac5316d4336</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-14 01:15:20</sys_created_on><sys_id>54e9afab47f8021029cb5ac5316d4309</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="SDK Sandbox" source="x_648117_sdk">ddaf132f47b8021029cb5ac5316d4336</sys_package><sys_policy/><sys_scope display_value="SDK Sandbox">ddaf132f47b8021029cb5ac5316d4336</sys_scope><sys_update_name>sys_scope_privilege_54e9afab47f8021029cb5ac5316d4309</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-14 01:15:20</sys_updated_on><target_name>incident</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>1959374065</payload_hash>
+        <record_name>incident</record_name>
+        <reverted_from/>
+        <source>95af132f47b8021029cb5ac5316d4339</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-14 01:15:20</sys_created_on>
+        <sys_id>18e9afab47f8021029cb5ac5316d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e3a872a0c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 01:15:20</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>98e9afaba9f80210efea5f6c6d8c5f0b</update_guid>
+        <update_guid_history>98e9afaba9f80210efea5f6c6d8c5f0b:1959374065</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-14 13:25:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>022f51f5a1bb44ae80757b2ddc6b2584</sys_id>
+        <sys_metadata>54e9afab47f8021029cb5ac5316d4309</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>incident</sys_name>
+        <sys_package display_value="SDK Sandbox" source="x_648117_sdk">ddaf132f47b8021029cb5ac5316d4336</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SDK Sandbox">ddaf132f47b8021029cb5ac5316d4336</sys_scope>
+        <sys_scope_delete display_value="">127801325523490e9d0c557bfac3c4c4</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_54e9afab47f8021029cb5ac5316d4309</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_54e9afab47f8021029cb5ac5316d4309">18e9afab47f8021029cb5ac5316d430c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 13:25:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
