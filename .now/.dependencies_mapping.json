@@ -1,1 +1,15 @@
-{}
+{
+  "lodash": {
+    "dependencies": [
+      "sys_module_dependency_lodash_4_17_21.xml"
+    ],
+    "version": "4.17.21",
+    "dependency_metric": [
+      {
+        "dep_name": "lodash",
+        "dep_version": "4.17.21",
+        "direct": true
+      }
+    ]
+  }
+}

@@ -1,10 +1,11 @@
 import { GlideRecord } from '@servicenow/glide'
 import { gs } from '@servicenow/glide'
+import { compact } from 'lodash'
 
 export const getIncidentCount = function () {
     let incidentGr = new GlideRecord("incident");
     incidentGr.query();
-    gs.addInfoMessage(incidentGr.getRowCount());
+    return incidentGr.getRowCount();
 }
 
 export const getIncidentNumbers = function () {
@@ -14,7 +15,11 @@ export const getIncidentNumbers = function () {
     while (incidentGr.next()){
         incidentNumbers.push(incidentGr.getDisplayValue());
     }
-    gs.addInfoMessage(incidentNumbers.toString());
+    incidentNumbers.push(false);
+    incidentNumbers.push("");
+    return incidentNumbers;
 }
 
-// TBD too
+export const cleanIncidentNumbers = function () {
+    return compact(this.getIncidentNumbers());
+}

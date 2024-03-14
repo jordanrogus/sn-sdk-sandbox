@@ -1,8 +1,13 @@
 {
   "deploy.timing.lifecycle": {
-    "last_deploy_to_deploy_time": "1710427335986"
+    "last_deploy_to_deploy_time": "1710436587340"
   },
   "deploy.count": {
-    "total_deploy_count": 38
+    "total_deploy_count": 50,
+    "fetch_count": 1
+  },
+  "deploy.timing.cli": {
+    "first_fetch_to_deploy_time": "1710436662848",
+    "last_fetch_to_deploy_time": "1710436662848"
   }
 }
