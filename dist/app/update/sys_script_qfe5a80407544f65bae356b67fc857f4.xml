@@ -38,7 +38,7 @@
     showStatusUpdate(current.getValue('status'), previous.getValue('status'));
 
     let incidentQty = getIncidentCount();
-    gs.addInfoMessage("Number of incidents: " + incidentQty);
+    gs.addInfoMessage("Total number of incidents: " + incidentQty);
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>

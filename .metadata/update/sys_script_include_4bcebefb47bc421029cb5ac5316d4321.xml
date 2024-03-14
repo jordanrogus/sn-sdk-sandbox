@@ -12,9 +12,9 @@ ToDo.prototype = {
     initialize: function() {
     },
 
-    getIncidentNumbers: function(){
+    getIncidentNumbers: function(userSysId){
         const { cleanIncidentNumbers } = require('./src/incident.js');
-        return cleanIncidentNumbers();
+        return cleanIncidentNumbers(userSysId);
     },
 
     type: 'ToDo'
@@ -23,13 +23,13 @@ ToDo.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-14 16:45:47</sys_created_on>
         <sys_id>4bcebefb47bc421029cb5ac5316d4321</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>ToDo</sys_name>
         <sys_package display_value="SDK Sandbox" source="x_648117_sdk">ddaf132f47b8021029cb5ac5316d4336</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="SDK Sandbox">ddaf132f47b8021029cb5ac5316d4336</sys_scope>
         <sys_update_name>sys_script_include_4bcebefb47bc421029cb5ac5316d4321</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-14 17:17:28</sys_updated_on>
+        <sys_updated_on>2024-03-14 17:31:19</sys_updated_on>
     </sys_script_include>
 </record_update>

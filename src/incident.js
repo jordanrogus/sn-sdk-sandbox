@@ -8,9 +8,10 @@ export const getIncidentCount = function () {
     return incidentGr.getRowCount();
 }
 
-export const getIncidentNumbers = function () {
+export const getIncidentNumbers = function (userSysId) {
     let incidentNumbers = [];
     let incidentGr = new GlideRecord("incident");
+    incidentGr.addQuery("caller_id", userSysId);
     incidentGr.query();
     while (incidentGr.next()){
         incidentNumbers.push(incidentGr.getDisplayValue());
@@ -20,6 +21,6 @@ export const getIncidentNumbers = function () {
     return incidentNumbers;
 }
 
-export const cleanIncidentNumbers = function () {
-    return compact(this.getIncidentNumbers());
+export const cleanIncidentNumbers = function (userSysId) {
+    return compact(this.getIncidentNumbers(userSysId));
 }
