@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_648117_sdk.Validator</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Validator</name>
+        <script><![CDATA[var Validator = Class.create();
+Validator.prototype = {
+    initialize: function() {
+		this.validator = require('./src/node-package-utils/validator.js');
+    },
+
+	isEmail: function(email){
+        return this.validator.isEmail(email);
+	},
+
+	isHexColor: function(hexColor){
+        return this.validator.isHexColor(hexColor);
+	},
+
+	isIP: function(ip){
+        return this.validator.isIP(ip);
+	},
+
+    type: 'Validator'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 19:46:31</sys_created_on>
+        <sys_id>8e28dda54745021029cb5ac5316d4350</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Validator</sys_name>
+        <sys_package display_value="SDK Sandbox" source="x_648117_sdk">ddaf132f47b8021029cb5ac5316d4336</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="SDK Sandbox">ddaf132f47b8021029cb5ac5316d4336</sys_scope>
+        <sys_update_name>sys_script_include_8e28dda54745021029cb5ac5316d4350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 20:00:58</sys_updated_on>
+    </sys_script_include>
+</record_update>
