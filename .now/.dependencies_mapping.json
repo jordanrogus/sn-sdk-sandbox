@@ -11,5 +11,44 @@
         "direct": true
       }
     ]
+  },
+  "validator": {
+    "dependencies": [
+      "sys_module_dependency_validator_13_11_0.xml"
+    ],
+    "version": "13.11.0",
+    "dependency_metric": [
+      {
+        "dep_name": "validator",
+        "dep_version": "13.11.0",
+        "direct": true
+      }
+    ]
+  },
+  "date-fns": {
+    "dependencies": [
+      "sys_module_dependency_date_fns_3_6_0.xml"
+    ],
+    "version": "3.6.0",
+    "dependency_metric": [
+      {
+        "dep_name": "date-fns",
+        "dep_version": "3.6.0",
+        "direct": true
+      }
+    ]
+  },
+  "dayjs": {
+    "dependencies": [
+      "sys_module_dependency_dayjs_1_11_10.xml"
+    ],
+    "version": "1.11.10",
+    "dependency_metric": [
+      {
+        "dep_name": "dayjs",
+        "dep_version": "1.11.10",
+        "direct": true
+      }
+    ]
   }
 }

@@ -5,7 +5,6 @@
     <path>x_648117_sdk/sdk-sandbox/0.0.1/src/incident.js</path>
     <external_source>false</external_source>
     <content><![CDATA[import { GlideRecord } from '@servicenow/glide'
-import { gs } from '@servicenow/glide'
 import { compact } from 'lodash'
 
 export const getIncidentCount = function () {

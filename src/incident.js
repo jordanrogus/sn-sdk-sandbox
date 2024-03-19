@@ -1,5 +1,4 @@
 import { GlideRecord } from '@servicenow/glide'
-import { gs } from '@servicenow/glide'
 import { compact } from 'lodash'
 
 export const getIncidentCount = function () {
