@@ -25,11 +25,14 @@
     "eslint": "8.50.0"
   },
   "dependencies": {
+    "assert": "^2.1.0",
     "date-fns": "3.6.0",
     "dayjs": "1.11.10",
     "lodash": "4.17.21",
+    "node-test": "^1.4.6",
     "validator": "13.11.0"
-  }
+  },
+  "type": "module"
 }]]></content>
   </sys_module>
 </record_update>

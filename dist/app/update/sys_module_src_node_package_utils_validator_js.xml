@@ -18,6 +18,6 @@ export const isIP = function (ip) {
     return validator.isIP(ip);
 }
 
-// Additional validations could be added]]></content>
+// Additional validations can be added]]></content>
   </sys_module>
 </record_update>

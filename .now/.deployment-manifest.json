@@ -16,23 +16,16 @@
     },
     {
       "status": "DEPLOYED",
-      "current_hash": "64621f4fe47961b8b124e25c9034d834",
+      "current_hash": "e6ad358ee72bc991f7d859b877a1656b",
       "path": "update/sys_module_package_json.xml",
-      "deploy_hash": "64621f4fe47961b8b124e25c9034d834",
+      "deploy_hash": "e6ad358ee72bc991f7d859b877a1656b",
       "modulePath": "x_648117_sdk/sdk-sandbox/0.0.1/package.json"
     },
     {
       "status": "DEPLOYED",
-      "current_hash": "283056dfa745e656924994cbf469a1b3",
-      "path": "update/sys_module_src_myfunction_js.xml",
-      "deploy_hash": "283056dfa745e656924994cbf469a1b3",
-      "modulePath": "x_648117_sdk/sdk-sandbox/0.0.1/src/myfunction.js"
-    },
-    {
-      "status": "DEPLOYED",
-      "current_hash": "978fc659c312ff4ca298be1a6930247a",
+      "current_hash": "3430e8257f98f28dcd2960e8c55ac9d0",
       "path": "package_inventory.csv",
-      "deploy_hash": "978fc659c312ff4ca298be1a6930247a",
+      "deploy_hash": "3430e8257f98f28dcd2960e8c55ac9d0",
       "modulePath": ""
     },
     {
@@ -149,9 +142,9 @@
     },
     {
       "status": "DEPLOYED",
-      "current_hash": "bfe36ad1bdea6e729f7cb5241e1a969b",
+      "current_hash": "2626ffa2ba8d7dd74e427b40245e150a",
       "path": "update/sys_script_qfe5a80407544f65bae356b67fc857f4.xml",
-      "deploy_hash": "bfe36ad1bdea6e729f7cb5241e1a969b",
+      "deploy_hash": "2626ffa2ba8d7dd74e427b40245e150a",
       "modulePath": ""
     },
     {
@@ -225,9 +218,9 @@
     },
     {
       "status": "DEPLOYED",
-      "current_hash": "3de521fd02cf646b264cb4057fbf0d29",
+      "current_hash": "46781efac4b64b5b731e0f98efb00376",
       "path": "update/sys_module_src_node_package_utils_validator_js.xml",
-      "deploy_hash": "3de521fd02cf646b264cb4057fbf0d29",
+      "deploy_hash": "46781efac4b64b5b731e0f98efb00376",
       "modulePath": "x_648117_sdk/sdk-sandbox/0.0.1/src/node-package-utils/validator.js"
     },
     {
@@ -298,9 +291,23 @@
       "deploy_hash": "007e53d8b1ab290a3e3b443f0de63b8c",
       "status": "DEPLOYED",
       "modulePath": ""
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "57a4d5eb44875c214806d06eb2869d46",
+      "path": "update/sys_module_src_shipped_demo_data_myfunction_js.xml",
+      "deploy_hash": "57a4d5eb44875c214806d06eb2869d46",
+      "modulePath": "x_648117_sdk/sdk-sandbox/0.0.1/src/shipped-demo-data/myfunction.js"
+    },
+    {
+      "status": "DEPLOYED",
+      "current_hash": "06465dea2e4a6f7975a3aca55e4d56db",
+      "path": "update/sys_module_src_node_package_utils_test_validator_test_js.xml",
+      "deploy_hash": "06465dea2e4a6f7975a3aca55e4d56db",
+      "modulePath": "x_648117_sdk/sdk-sandbox/0.0.1/src/node-package-utils-test/validator-test.js"
     }
   ],
   "packageJsonHash": "9084ab518f3ba6e0a99c33c08541a699",
   "register_scope": false,
-  "last_fetch": "2024-03-19T20:04:35.285Z"
+  "last_fetch": "2024-03-20T15:38:45.947Z"
 }

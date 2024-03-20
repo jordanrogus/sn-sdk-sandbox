@@ -6,7 +6,7 @@
         <action_insert>false</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Example BR</name>
+        <name>Testing Packages</name>
         <order>100</order>
         <priority/>
         <rest_method/>
@@ -30,7 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
     const {
         showStatusUpdate
-    } = require('./src/myfunction.js');
+    } = require('./src/shipped-demo-data/myfunction.js');
     const {
         getIncidentCount
     } = require('./src/incident.js');
@@ -40,6 +40,9 @@
 	const {
         dayOfWeek
     } = require('./src/node-package-utils/date-fns.js');
+	const {
+        currentISO8601Date
+    } = require('./src/node-package-utils/dayjs.js');
 
     showStatusUpdate(current.getValue('status'), previous.getValue('status'));
 
@@ -51,6 +54,8 @@
 
 	gs.addInfoMessage("Day of week: " + dayOfWeek());
 
+	gs.addInfoMessage("ISO8601 date: " + currentISO8601Date());
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -58,15 +63,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>qfe5a80407544f65bae356b67fc857f4</sys_id>
-        <sys_mod_count>17</sys_mod_count>
-        <sys_name>Example BR</sys_name>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Testing Packages</sys_name>
         <sys_overrides/>
         <sys_package display_value="SDK Sandbox" source="x_648117_sdk">ddaf132f47b8021029cb5ac5316d4336</sys_package>
         <sys_policy/>
         <sys_scope display_value="SDK Sandbox">ddaf132f47b8021029cb5ac5316d4336</sys_scope>
         <sys_update_name>sys_script_qfe5a80407544f65bae356b67fc857f4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-19 19:14:49</sys_updated_on>
+        <sys_updated_on>2024-03-20 15:16:44</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

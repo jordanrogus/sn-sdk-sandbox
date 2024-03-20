@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<record_update>
+  <sys_module action="INSERT_OR_UPDATE">
+    <sys_scope>ddaf132f47b8021029cb5ac5316d4336</sys_scope>
+    <path>x_648117_sdk/sdk-sandbox/0.0.1/src/node-package-utils-test/validator-test.js</path>
+    <external_source>false</external_source>
+    <content><![CDATA[import assert from 'node:assert'
+import test from 'node:test'
+import { isEmail, isHexColor, isIP } from '../node-package-utils/validator.js'
+
+test('Email Validations', async (t) => {
+    await t.test('Valid Email Check', (t) => {
+        const email = "test@test.com";
+        assert(isEmail(email));
+    });
+
+    await t.test('Invalid Email Check', (t) => {
+        const email = "testnotanemail";
+        assert(isEmail(email) === false);
+    });
+});
+
+test('Hex Color Validations', async (t) => {
+    await t.test('Valid Hex Color Check', (t) => {
+        const hexColor = "#FFFFFF";
+        assert(isHexColor(hexColor));
+    });
+
+    await t.test('Invalid Hex Color Check', (t) => {
+        const hexColor = "test";
+        assert(isHexColor(hexColor) === false);
+    });
+});
+
+test('IP Validations', async (t) => {
+    await t.test('Valid IP Check', (t) => {
+        const ip = "172.16.0.0";
+        assert(isIP(ip));
+    });
+
+    await t.test('Invalid IP Check', (t) => {
+        const ip = "test";
+        assert(isIP(ip) === false);
+    });
+});]]></content>
+  </sys_module>
+</record_update>

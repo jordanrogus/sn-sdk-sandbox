@@ -2,7 +2,7 @@
 <record_update>
   <sys_module action="INSERT_OR_UPDATE">
     <sys_scope>ddaf132f47b8021029cb5ac5316d4336</sys_scope>
-    <path>x_648117_sdk/sdk-sandbox/0.0.1/src/myfunction.js</path>
+    <path>x_648117_sdk/sdk-sandbox/0.0.1/src/shipped-demo-data/myfunction.js</path>
     <external_source>false</external_source>
     <content><![CDATA[import { gs } from '@servicenow/glide'
 

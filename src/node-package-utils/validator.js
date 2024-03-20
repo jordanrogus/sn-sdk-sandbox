@@ -12,4 +12,4 @@ export const isIP = function (ip) {
     return validator.isIP(ip);
 }
 
-// Additional validations could be added
+// Additional validations can be added
